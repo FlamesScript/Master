@@ -81,7 +81,7 @@ titleBar.Parent = mainFrame
 
 titleLabel.Size = UDim2.new(0.6, 0, 1, 0)
 titleLabel.Position = UDim2.new(0.02, 0, 0, 0)
-titleLabel.Text = "ULTIMATE EXECUTOR V1.2"
+titleLabel.Text = "ULTIMATE EXECUTOR V3"
 titleLabel.TextColor3 = Color3.fromRGB(200, 200, 200)
 titleLabel.Font = Enum.Font.GothamBold
 titleLabel.TextSize = 18

@@ -197,6 +197,12 @@ for _, config in ipairs(buttonConfigs) do
     end
 end
 
+scriptEditor:GetPropertyChangedSignal("Text"):Connect(function()
+    updateLineNumbers()
+    scriptEditor.Text = scriptEditor.Text  -- simple fix: reassign text to itself
+    saveScript(scriptEditor.Text)
+end)
+
 -- Open Button
 Open.Size = UDim2.new(0, 50, 0, 50)
 Open.Position = UDim2.new(0.5, 0, 0.025, 0)

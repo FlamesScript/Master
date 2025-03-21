@@ -22,11 +22,11 @@ end
 
 
 getgenv().SETTINGS = {
-    reach = 10, 
+    reach = 7, 
     hit_distance = false,
     auto_swing = false,
     auto_equip = true,
-    multi = 2,
+    multi = 5,
     CircleT = 0.5
 }
 
